@@ -1,2 +1,2 @@
 #!/bin/bash
-grep "^UID_MAX" /etc/passwd
+getent /etc/passwd
