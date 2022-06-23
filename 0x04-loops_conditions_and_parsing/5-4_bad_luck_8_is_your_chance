@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+# Bash script that loops from 1 to 10 and
+script=0
+while [ $script -le 9 ]
+do
+    if [ $script == 3 ]
+    then
+        echo "bad luck"
+    elif [ $script == 7 ]
+    then
+        echo "good luck"
+    else
+        echo "Best School"
+    fi
+        ((script++))
+done
